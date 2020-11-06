@@ -39,7 +39,6 @@ const Contact = () => (
 					<p>Facebook : <a href="">www.facebook.com/projectme</a></p>
 					<p>Email : <a href="">helena@abudanthealingwisdom.com</a></p>
 				</div>
-
 			</div>
 
 			<div className="grid-child" id="contact-form">

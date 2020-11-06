@@ -1,0 +1,370 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@font-face {
+    font-family:"arial"; /*a name to be used later*/
+    src: url("../fonts/arial.ttf") format('truetype'); /*URL to font*/
+}
+
+@font-face {
+    font-family:"bernardMT"; /*a name to be used later*/
+    src: url("../fonts/bernardMT.ttf") format('truetype'); /*URL to font*/
+}
+
+
+@font-face {
+    font-family:"Channel Slanted"; /*a name to be used later*/
+    src: url("../fonts/channel_slanted1.ttf") format('truetype'); /*URL to font*/
+}
+    
+body{
+    font-family:"arial";
+}
+
+#gatsby-focus-wrapper{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #feefec;
+}
+
+.greeetings-ff{
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 26%;
+    color: #000;
+}
+
+.main-navigation{
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    max-width: 1250px;
+    text-align: center; 
+    background: #fdc0c7;
+}
+
+.main-navigation li{
+	display: inline-block;
+	list-style: none; 
+	padding: 0 1%; 
+	margin:0;
+}
+
+.main-navigation ul{
+	margin: 0;
+}
+
+.main-navigation li a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 19px;
+}
+
+.main-navigation li a[aria-current="page"]{
+    color: #E91E63;
+    font-weight: 900;
+}
+
+
+.page-wrapper{
+    color: #000;
+    padding: 8% 0;
+}
+
+.page-wrapper h1{
+    text-align: center;
+    padding: 5% 9%;
+    color: #000;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.foot-note{
+    background: #6748e7c4;
+    margin-top: 0px;
+    padding: 1% 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+        
+.wrapper-end{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 8%;
+}
+.wrapper-end p{
+    font-family: "bernardMT";
+    color: #000;
+    font-size: 2rem;
+    margin-top: 7%;
+}
+
+.foot-note p{
+	margin-bottom: 0;
+}
+
+
+.section-grid{
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    gap: 14px;
+}
+
+#book-contents{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#book-contents h1{
+	text-transform: uppercase;
+    text-align: center;
+}
+
+#book-contents h1::after{
+    content:"";
+}
+
+.sm-nav li {display: inline-block;}
+.sm-nav img{
+	width: 23px;
+    margin: 0 6px;
+}
+
+.sm-nav p{
+    margin: 0;
+    color: #000;
+    font-size: 13px;
+}
+
+.sm-nav p a {
+	color: #000 !important;
+    display: block;
+}
+
+.section-author{
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.section-author img {
+    width: 41%;
+    border: 5px solid #fc2c73;
+    max-width: 100%;;
+}
+
+
+/*Blog*/
+.section-grid-blog{
+    display: grid;
+    grid-template-columns: 64% 1fr;
+    text-align: left;
+}
+
+.blog-body h1{
+    padding: 5% 0;
+    text-align: left;
+    font-weight: 700;
+}
+
+.blog-link a{
+    background: #e91e6c;
+    padding: 2%;
+/*    border-radius: 10px;*/
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.section-single-blog-post{
+    padding: 7%;
+    background: #3c3c3c4d;
+    color: #fff;
+}
+
+.single-post-date{
+    margin-left: 14px;
+}
+.author-name-single-post a{
+    text-transform: uppercase;
+    color: #ffc239;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.single-post-meta{
+    margin-bottom: 2%;
+}
+
+
+/*Snipcart*/
+
+/*Snipcart Defaults*/
+
+.snipcart-button-container{
+    width: 100%;
+    text-align: center;
+}
+.snipcart-add-item{
+    background: #ee205e !important;
+    color: #000 !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 5%;
+    border: none;
+    padding: 1% 37px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#snipcart-header{
+    background: #eee !important;
+}
+        
+.snip-layout .snip-footer{
+    background: #d8d8d8 !important;
+}
+
+.snip-layout .snip-btn--highlight{
+    background-color: #1890ff !important;
+}
+
+/**/
+#book-wrapper-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#book-wrapper-content img {
+    width: 70%;
+}
+#book-order-wrapper{
+    text-align: center;
+}
+
+#book-order-wrapper img{
+    width: 28%;
+}
+
+/*contact-form*/
+#contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form-custom{
+
+}
+
+#form-custom input{
+    width: 100%;
+    margin-bottom: 3%;
+    background: #fdc0c7;
+    border: none;
+    color: #fff;
+    padding: 9px;
+}
+
+#form-custom textarea{
+    width: 100%;
+    margin-top: 2%;
+    height: 350px;
+    color: #fff;
+    background: #fdc0c7;
+    border: none;
+    padding: 12px;
+}
+
+.abtiaryButton{
+    background: #E91E63 !important;
+    max-width: 200px;
+    margin: 3% auto;
+}
+
+.section-author-contact{
+    text-align: center;
+}
+    
+.section-author-contact h1{
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 900;
+}
+
+.section-author-contact img{
+    width: 200px;
+    border: 4px solid #ec939d;
+    margin: 0 14px;
+}
+
+.__private_subheading{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 3%;
+}
+
+
+.button-wrapper-btn{
+    text-align: center;
+    margin-top: 6%;
+}
+
+.button-wrapper-btn button{
+    background: #eb4163;
+    border: none;
+    padding: 2%;
+}
+
+.button-wrapper-btn a{
+    color: #000;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.footer-name-auth h1{
+    text-align: center;
+    padding: 2% 0;
+    background: #fdc0c7;
+    margin: 0;
+    font-size: 1.4rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #e91e63;
+}
+
+.emphasize{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.wrapper-ft{
+    margin-top: 6%;
+}
+
+.wrapper-ft p{
+    margin-bottom: 0;
+}
+
+.bolder{
+    font-weight: bold;
+}
